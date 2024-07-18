@@ -5,5 +5,5 @@
   - include_tasks: myfile.yml
   - name: copy file from master to nodes 
     copy: 
-      src: mycopyfile 
+      src: mycopyfile
       dest: /home/maha/mycopyfile
