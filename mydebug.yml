@@ -4,3 +4,7 @@
   tasks:
   - name: i want to cxcute direct linux command 
     command: hostname -f
+    register: myfirsttaskresults 
+  - name: i want to debug myfirst task result
+    debug: 
+      msg: "{{myfirsttaskresults}}"
