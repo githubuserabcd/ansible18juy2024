@@ -22,7 +22,7 @@
       dest: /home/maha/apache-tomcat-10.0.20.tar.gz
       force_basic_auth: yes
   handlers:
-  - name: i want to restart webserver 
+  - name: restart webserver 
     service: 
       name: apache2 
       state: restarted
